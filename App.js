@@ -40,7 +40,7 @@ export default class App extends Component<Props> {
 
     return (
       <View style={styles.container}>
-        <Header headerText={'Albums'} />
+        <Header headerText={'Games'} />
         <List games={this.state.dataSource} />
       </View>
     );

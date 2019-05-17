@@ -11,7 +11,6 @@ const List = (props) => {
         data={props.games}
         renderItem={({item}) => <Card game={item}/>}
         keyExtractor={(item) => {
-          console.log(item);
           return item.title;
         }}
       />
